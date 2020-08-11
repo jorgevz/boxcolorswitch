@@ -15,7 +15,7 @@ export default class Toggle extends React.Component{
     this.state = { color: blue };
     this.switchColor = this.switchColor.bind(this);
   }
-  //color change functionality.
+  //color change functionality
   switchColor(){
     const otherColor = this.state.color === blue ? beige : blue;
     this.setState({ color: otherColor })
