@@ -20,10 +20,10 @@ export default class Toggle extends React.Component{
     const otherColor = this.state.color === blue ? beige : blue;
     this.setState({ color: otherColor })
   }
-//My display that will be displaying text along the colors, this here
-//allows me to fully have displayment of all the functionalities 
-//previously declared. I also used google fonts which can be viewed in
-// my CSS. 
+//My display that will be displaying text along the colors this here,
+//Allows me to fully have displayment of all the functionalities 
+//previously declared, I also used google fonts which can be viewed in
+// my CSS
   render(){
     return(
       <div id= 'div' style={{background: this.state.color}}>
