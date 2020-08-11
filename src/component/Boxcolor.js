@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 const blue = "#10B5B5";
 const beige = "#E6D9BC";
 
-//Here i have both of my states set for both colors.
+//Here i have both of my states set for both colors
 
 export default class Toggle extends React.Component{
   constructor(props){
