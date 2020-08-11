@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-//Here i have the two colors that i will be using to switch.
-// I used to google color picker for my color selection.
+//Here i have two colors that i will be using to switch.
+// I used the google color picker for my color selection.
 
 const blue = "#10B5B5";
 const beige = "#E6D9BC";
