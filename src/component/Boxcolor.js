@@ -28,7 +28,7 @@ export default class Toggle extends React.Component{
   render(){
     return(
       <div id= 'div' style={{background: this.state.color}}>
-      <h1 id='s1'>Here ! Change my color</h1>
+      <h1 id='s1'>Clck here to Change my color</h1>
       <button id='d1' onClick={this.switchColor}>Click Here !</button>
       </div>
     )
