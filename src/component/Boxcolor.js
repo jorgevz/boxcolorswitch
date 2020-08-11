@@ -23,7 +23,8 @@ export default class Toggle extends React.Component{
 //My display that will be displaying text along the colors this here,
 //Allows me to fully have displayment of all the functionalities 
 //previously declared, I also used google fonts which can be viewed in
-// my CSS
+// my CSS.
+//Also as you can see the button has the functionality as an attribute.
   render(){
     return(
       <div id= 'div' style={{background: this.state.color}}>
